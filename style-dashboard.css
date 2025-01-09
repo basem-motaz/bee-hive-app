@@ -283,3 +283,28 @@ li:hover > ul.drop-menu li:hover {
     opacity: 0;
   }
 } */
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#live-feed-container {
+  width: 80%;
+  height: 50vh;
+  background-color: white;
+  margin-inline: auto;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+
+#about-container {
+  margin-inline: 2rem;
+  padding-top: 2rem;
+}
+
+#about-container > p {
+  color: black;
+  font-size: 20px;
+}
