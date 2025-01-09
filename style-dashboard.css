@@ -290,6 +290,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #CC8F00;
+}
+
 #live-feed-container {
   width: 80%;
   height: 50vh;
