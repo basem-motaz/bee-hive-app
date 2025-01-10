@@ -44,7 +44,7 @@ li {
   font: bold 1.35rem 'Roboto Condensed', san-serif;
   list-style-type: none;
   text-transform: uppercase;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .container {
   width: 90%;
@@ -66,8 +66,7 @@ nav > ul > li {
 }
 
 nav > ul > li:hover {
-  background: #ffffff;
-  color: #CC8F00;
+  background: #eec971;
   box-shadow: -3px 2px 3px rgba(0, 0, 0, .2);
   animation: menu-hover 300ms forwards;
 }
@@ -311,4 +310,26 @@ a:hover {
 #about-container > p {
   color: black;
   font-size: 20px;
+}
+
+#btn-camera {
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: solid 2px #CC8F00;
+}
+
+#btn-camera:hover {
+  color: #ffffff;
+  background-color: #CC8F00;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
 }
